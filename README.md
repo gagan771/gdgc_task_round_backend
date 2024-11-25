@@ -44,16 +44,27 @@ You can use tools like **Postman** or **cURL** to interact with the API.
 
 ---
 
-## Endpoints
-For 
+ 
 ### Base URL:  https://shopping-api.bhardwajlaughterclub.workers.dev/listing  
 
-- GET ALL Listed Items [GET /listing]
-- GET One Listed Item using ID [GET /listing/:id]
-- CREATE a Listing [POST /listing]
-- UPDATE Listed Item [PUT /listing/:id]
-- DELETE Listed Item [DELETE /listing/:id]
+## Endpoints
+- GET - Returns all the product list
+    ```bash
+  ./listing
+- GET - Returns the specific product item from the list
+  ```bash
+  ./listing/:id
+- POST - Creates new product item in the product list
+  ```bash
+  ./listing/
+- PUT - Updates product fields for a specific id
+  ```bash
+  ./listing/:id
+- DELETE - Deletes the product item from the product list
+  ```bash
+  ./listing/:id
+---
 
-- ---
-**POSTMAN CHECK
+
+##screenshots 
 ![Alt Text](postman-endpoint-test.png)
